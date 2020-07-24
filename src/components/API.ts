@@ -7,6 +7,7 @@ export type Question = {
   incorrect_answers: string[];
   question: string;
   type: string;
+  answer:
 };
 
 export type QuestionState = Question & { answer: string[] };
